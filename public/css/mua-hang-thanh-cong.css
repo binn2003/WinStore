@@ -1,0 +1,125 @@
+:root {
+    --text-color-red: #dc3545;
+}
+
+.container__order__successs {
+    /* border: 1px solid black; */
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.noidung__header {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+.noidung__header img {
+    width: 200px;
+}
+.noidung__header img {
+    width: 200px;
+}
+.noidung__header h2 {
+    font-size: 25px;
+    color: #5c5c5c;
+    margin-top: 10px;
+}
+
+.noidung__content {
+    padding: 40px;
+    /* border: 1px solid black; */
+    border-radius: 13px;
+    box-shadow: 0 0 7px rgba(218, 218, 218, 1);
+    background: #ffff;
+}
+.content__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__header {
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.content__header h3 {
+    font-size: 18px;
+}
+.content__header table tr {
+    padding: 5px;
+}
+.content__header table tr td:nth-child(1){
+    padding-right: 30px;
+}
+.content__header table tr td:nth-child(2){
+    font-weight: bold;
+}
+
+.content__footer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content__footer2 .btn{
+    margin: 0 10px;
+    border-radius: 35px;
+    padding: 10px 30px;
+    background-color: transparent;
+    font-weight: bold;
+    outline: none;
+    transition: .3s ease-in-out;
+}
+.content__footer2 a:nth-child(1) .btn{
+    color: #5c5c5c;
+    border: #5c5c5c 2px solid;
+}
+.content__footer2 a:nth-child(1) .btn:hover{
+    color: white;
+    background: #5c5c5c;
+}
+.content__footer2 a:nth-child(2) .btn{
+    color: var(--text-color-red);
+    border: var(--text-color-red) 2px solid;
+}
+.content__footer2 a:nth-child(2) .btn:hover{
+    color: white;
+    background: var(--text-color-red);
+}
+.red {
+    color: var(--text-color-red);
+} 
+
+.detail__product {
+    margin: 10px 0;
+    margin-top: 20px;
+}
+.detail__product h1{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--text-color-red);
+}
+.detail__product td, .detail__product th {
+    text-align: center;
+    padding: 10px 20px;
+}
+.detail__product td img {
+    width: 120px;
+    margin-right: 15px;
+}
+
+.btn-rounded {
+    border-radius: 10em;
+    padding: 6px 8px;
+    font-size: small;
+    text-transform: none;
+    text-shadow: none !important;
+    background: #eaeaea;
+    border-color: transparent;
+    border: none;
+}
